@@ -81,6 +81,6 @@ export const global = css`
   body {
     font-family: ${fonts.primary};
     color: ${colors.secondary[700]};
-    background-color: ${colors.secondary[200]};
+    background-color: ${colors.neutral.lightBg};
   }
 `;
