@@ -1,7 +1,7 @@
 import * as S from './styles';
 
-function Wrapper() {
-  return <S.Wrapper>wrapper</S.Wrapper>;
+function Wrapper({ children }) {
+  return <S.Wrapper>{children}</S.Wrapper>;
 }
 
 export default Wrapper;
