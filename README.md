@@ -107,4 +107,4 @@ Use this section to outline areas that you want to continue focusing on in futur
 ## Author
 
 - Website - [Alejandro La Rosa](https://www.alejandrolarosa.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Alejandro1709)
+- Frontend Mentor - [@Alejandro1709](https://www.frontendmentor.io/profile/Alejandro1709)
