@@ -9,10 +9,22 @@ export const Menu = styled.div`
 
 export const MenuMain = styled.div`
   display: flex;
+  flex: 0.9;
+  justify-content: space-between;
+  align-items: center;
+  border-right: 1px solid #494e6e;
 `;
 
 export const AvatarHolder = styled.div`
-  /* padding: 24px; */
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+  flex: 0.1;
+  /* padding: 24px 20px; */
+`;
+
+export const Moon = styled.img`
+  margin-right: 18px;
 `;
 
 export const Avatar = styled.img`

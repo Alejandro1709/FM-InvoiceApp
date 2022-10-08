@@ -14,7 +14,7 @@ function AppLogo() {
   return (
     <S.AppLogo>
       <S.LogoBot></S.LogoBot>
-      <LogoIMG src={Logo} alt='Logo' />
+      <LogoIMG src={Logo} alt='Logo' draggable={false} />
     </S.AppLogo>
   );
 }
