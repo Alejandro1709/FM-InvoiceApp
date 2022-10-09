@@ -1,14 +1,14 @@
-import Container from './components/Container/container';
-import Header from './components/Header/header';
+import Container from './components/Container';
 import Menu from './components/Menu';
 import Wrapper from './components/Wrapper';
+import InvoicesPage from './pages/invoices-page';
 
 function App() {
   return (
     <Wrapper>
       <Menu />
       <Container>
-        <Header />
+        <InvoicesPage />
       </Container>
     </Wrapper>
   );
