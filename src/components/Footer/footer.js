@@ -3,9 +3,9 @@ import * as S from './styles';
 function Footer() {
   return (
     <S.Footer>
-      <button>Edit</button>
-      <button>Delete</button>
-      <button>Mark as Paid</button>
+      <S.EditButton>Edit</S.EditButton>
+      <S.DeleteButton>Delete</S.DeleteButton>
+      <S.MarkPaidButton>Mark as Paid</S.MarkPaidButton>
     </S.Footer>
   );
 }
