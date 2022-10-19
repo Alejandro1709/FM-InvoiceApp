@@ -7,7 +7,9 @@ export const InvoiceItem = styled.div`
   padding: 24px;
   gap: 24px;
   background-color: white;
+  user-select: none;
   border-radius: 8px;
+  cursor: pointer;
 `;
 
 export const ItemTop = styled.div`

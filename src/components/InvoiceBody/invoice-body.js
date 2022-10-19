@@ -41,23 +41,25 @@ function InvoiceBody() {
         <S.Type>Send to</S.Type>
         <S.Date>alexgrim@mail.com</S.Date>
       </S.SendTo>
-      <S.TotalCard>
-        <S.Row>
-          <S.RowHead>
-            <S.Date2>Banner Design</S.Date2>
-            <S.TypeTwo>1 x £ 156.00</S.TypeTwo>
-          </S.RowHead>
-          <S.Date2>£ 400.00</S.Date2>
-        </S.Row>
-        <S.Row>
-          <S.RowHead>
-            <S.Date2>Banner Design</S.Date2>
-            <S.TypeTwo>1 x £ 156.00</S.TypeTwo>
-          </S.RowHead>
-          <S.Date2>£ 400.00</S.Date2>
-        </S.Row>
-      </S.TotalCard>
-      <S.GrandHold>dkdk</S.GrandHold>
+      <div>
+        <S.TotalCard>
+          <S.Row>
+            <S.RowHead>
+              <S.Date2>Banner Design</S.Date2>
+              <S.TypeTwo>1 x £ 156.00</S.TypeTwo>
+            </S.RowHead>
+            <S.Date2>£ 400.00</S.Date2>
+          </S.Row>
+          <S.Row>
+            <S.RowHead>
+              <S.Date2>Banner Design</S.Date2>
+              <S.TypeTwo>1 x £ 156.00</S.TypeTwo>
+            </S.RowHead>
+            <S.Date2>£ 400.00</S.Date2>
+          </S.Row>
+        </S.TotalCard>
+        <S.GrandHold>dkdk</S.GrandHold>
+      </div>
     </S.InvoiceInfo>
   );
 }

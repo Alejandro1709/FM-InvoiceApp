@@ -6,6 +6,7 @@ function InvoicePage() {
   return (
     <Fragment>
       <StatusBar />
+      <br />
       <InvoiceDetail />
     </Fragment>
   );

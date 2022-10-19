@@ -5,6 +5,7 @@ export const InvoiceDetail = styled.div`
   flex-direction: column;
   gap: 16px;
   user-select: none;
+  margin-bottom: 56px;
 `;
 
 export const InvoiceInfo = styled.div`

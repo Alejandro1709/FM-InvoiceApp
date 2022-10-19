@@ -5,4 +5,5 @@ export const InvoiceList = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(327px, 1fr));
   grid-gap: 16px;
+  margin-bottom: 56px;
 `;

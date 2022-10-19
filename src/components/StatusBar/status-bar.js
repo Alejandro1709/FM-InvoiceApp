@@ -1,11 +1,14 @@
 import { FiChevronLeft } from 'react-icons/fi';
+import { Link } from 'wouter';
 import * as S from './styles';
 
 function StatusBar() {
   return (
     <S.StatusBar>
-      <FiChevronLeft />
-      Go Back
+      <S.SLink to='/'>
+        <FiChevronLeft />
+        Go Back
+      </S.SLink>
     </S.StatusBar>
   );
 }
